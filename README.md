@@ -1,7 +1,6 @@
 # Agents of Justice
 
 ## Keshav Lakshmi Narasimhan
-## 240003040
 
 This repository contains my take on the Cynaptics Phase 2 Task, which is to simulate the proceedings of a courtroom using LLM agents to represent different parties present during trial. A text describing the case and establishing basic facts is provided as input.
 
