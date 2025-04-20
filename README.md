@@ -6,7 +6,7 @@ My approach is based off the provided starter code, but has several modification
 
 Changes made to the initial code:
 
--Huggingface has been replaced with Groq's API. The LLM used is Mistral Saba 24b, which has 24 billion trainable parameters.
+-  Huggingface has been replaced with Groq's API. The LLM used is Mistral Saba 24b, which has 24 billion trainable parameters.
 -  The function _format_prompt, which brings a user prompt into a form that is syntactically valid for processing by the LLM, originally had a loop which converted messages (a list of dicts) into a string. This was removed as the new model already accepts prompts in the original form.
 - The self.history attribute of the class was removed and replaced with a global history variable. This is so that every agent has access to what every other agent has said during the proceedings, instead of having access to only its own history.
 
